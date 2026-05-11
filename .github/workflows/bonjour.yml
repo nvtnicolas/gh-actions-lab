@@ -1,0 +1,11 @@
+name: Bonjour
+
+on:
+  push:
+
+jobs:
+  bonjour-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher le message
+        run: echo "Bonjour depuis GitHub Actions !"
